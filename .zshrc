@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="af-magic"
 
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
@@ -68,8 +68,6 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X1
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 #bindkey -v # use vi mode
-
-source $(brew --prefix nvm)/nvm.sh
 
 export GOPATH=$HOME/go
 
